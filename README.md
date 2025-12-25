@@ -7,3 +7,4 @@ Append `?url=<URL>` to the end of this website's URL, where `<URL>` is replaced 
 For example, to embed `https://video.com/video.mp4` to be viewable directly on Discord, send the link `https://discord-videolink-embedder.vercel.app/?url=https://video.com/video.mp4` as a message.
 
 # Example
+![image](./example.png)
