@@ -13,21 +13,15 @@ export async function generateMetadata(
   return {
     openGraph: {
       title: 'Video',
-      description: 'Video',
       url: params.url?.toString(),
       siteName: 'Video',
-      images: [
-        {
-          url: 'https://ia.media-imdb.com/images/rock.jpg',
-        },
-      ],
       videos: [
         {
           url: params.url?.toString() || "",
         },
       ],
       locale: 'en_US',
-      type: 'website',
+      type: 'video.other',
     },
   }
 }
